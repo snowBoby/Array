@@ -4,10 +4,10 @@
 栈方法：push()、push()
 队列方法：shift()、unshift() //shift是删除
 重排序方法：reverse()、sort()、copyWithin()
-位置方法：indexOf()、lastIndexOf()、includes()
+查找是否存在方法：indexOf()、lastIndexOf()、includes()
 维度降级方法：flat()、flatMap()
-操作方法：slice()、splice()、concat()、join()、fill()
-正则表达式相关方法：replace()、search(reg)、split(reg,限制返回数组的最大长度) //search查找位置 详细用法请看https://github.com/snowBoby/RegExp
+填充方法：fill()
+操作方法：slice()、splice()、concat()、join()
 
 
 迭代方法：每个方法都接受俩个参数，要在每一项上运行的函数和运行该函数的作用域对象-影响this的值。传入这些方法中的函数会接受三个参数，分别是数组项的值、该项在数组中的位置和数组对象本身（item, index, arr）。
