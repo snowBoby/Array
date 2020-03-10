@@ -65,6 +65,7 @@ Array.apply( null, { length: 3 } ); //执行的实际上是Array(undefined, unde
 *   values()：返回elem
 
 ### 1.4 转换方法
+与其他引用类型一样，Array类型也重写了toLocaleString()、toString()和valueOf()方法。
 *   toString()：返回由数组中每个值的字符串形式（它会依次调用数组中每个元素的 toString 方法 (null 和 undefined 是例外，它们会直接转为空字符串) ）拼接而成的一个以逗号分隔的字符串。
 *   toLocaleString()：经常返回与toString()方法相同的值，但也不总是如此。当调用数组的toLocaleString()方法时，它也会创建一个数组值的以逗号分隔的字符串。而唯一的不同之处在于，这一次为了取得每一项的值，调用的是每一项的toLocaleString()方法，而不是toString()方法。
 *   valueOf()：返回的还是数组。
